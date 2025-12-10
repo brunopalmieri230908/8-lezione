@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: rgb(0, 255, 34);
+}
+h1{
+    color: rgb(168, 35, 35);
+    transition: 500ms;
+}
+li:nth-child(even){
+    color: aqua;
+}
+li:nth-child(odd){
+    color: crimson;
+}
+li{
+    text-transform:uppercase;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.completed{
+    text-decoration: line-through;
+}
+h1:hover{
+    font-size: 40px;
+    color: aqua;
+}
+
+#hello{
+    background-color: aquamarine;
+    color: rgb(32, 94, 16);
+    border: 2px solid white;
+    border-radius:  5px;
+}
